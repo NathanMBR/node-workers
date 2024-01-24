@@ -19,6 +19,10 @@ Training Node.js Workers
 ### Running with Workers
 - `pnpm start`
 
+## Comparative
+
+![Screenshot of time comparison](./.github/comparative.png)
+
 ## License
 
 [MIT](./LICENSE)
