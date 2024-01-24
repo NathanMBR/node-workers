@@ -1,0 +1,31 @@
+{
+  "name": "node-workers",
+  "version": "1.0.0",
+  "description": "Training Node.js Workers",
+  "main": "./build/index.js",
+  "engines": {
+    "pnpm": ">=8.14.1",
+    "node": ">=20.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NathanMBR/node-workers.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node --enable-source-maps .",
+    "start:no-workers": "node --enable-source-maps ./build/noWorkers.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "workers",
+    "typescript"
+  ],
+  "author": "NathanMBR",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
